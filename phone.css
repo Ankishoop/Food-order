@@ -1,0 +1,105 @@
+
+/* navigation */
+#navbar
+{
+    flex-direction: column;
+}
+
+@media (max-width :500px)
+{
+    #menu li 
+    {
+        font-size: 1rem;
+    }
+}
+
+
+@media (max-width: 410px)
+{
+    #menu li 
+    {
+        font-size: 0.8rem;
+    }
+}
+
+/* home section */
+@media (max-width : 1000px)
+{
+    #home
+    {
+        padding:  0px 37px;
+    }
+    .h-primary
+    {
+        font-size: 1.5rem;
+    }
+    #home p
+    {
+        font-size: 1rem;
+    }
+}
+/* services section  */
+.services {
+    margin: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 1084px)
+{
+     .services .box 
+     {
+         width: 50%;
+     }
+    
+}
+@media (max-width: 730px)
+{
+     .services .box 
+     {
+         width: 80%;
+     }
+     .services .box img 
+     {
+         height: 115px;
+     }
+    .services .box p    
+    {
+        font-size: .8rem;
+    }
+}
+@media (max-width: 410px)
+{
+     
+     .services .box img 
+     {
+         height: 100px;
+     }
+     .services .box h2
+     {
+         font-size: 1.2rem;
+     }
+    .services .box p    
+    {
+        font-size: .8rem;
+    }
+}
+
+
+
+
+/* contact page  */
+
+/* footer */
+
+
+/* utility classes */
+
+/* .h-primary
+{
+    font-size: 2.8rem;
+    padding: 12px;
+    font-family: 'Bree Serif', serif;
+} */
